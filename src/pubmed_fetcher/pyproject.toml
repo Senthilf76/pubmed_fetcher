@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pubmed-fetcher"
+version = "0.1.0"
+description = "A Python CLI tool to fetch PubMed research papers with non-academic affiliations"
+authors = ["Your Name "]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+xmltodict = "^0.13.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
